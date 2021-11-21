@@ -4,7 +4,8 @@ Django back, React+TypeScript front, Postgres database.
 ## Setting up virtual python environment
 0. `mkdir {project}`
 0. `cd {project}`
-0. `virtualenv venv`
+~0. `virtualenv venv`~
+0. `python3 -m venv {/path/to/new/virtual/environment}`
 0. `source venv/bin/activate`
 0. Install django and psycopg2: `pip install django psycopg2`
 
