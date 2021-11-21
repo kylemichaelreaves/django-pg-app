@@ -1,6 +1,13 @@
 # README
 Django back, React+TypeScript front, Postgres database.
 
+## Create Postgres database and user
+0. `CREATE DATABASE django_postgres_app;`
+1. `CREATE USER kyle_admin WITH PASSWORD 'kyle_admin_password';`
+2. `ALTER ROLE kyle_admin SET client_encoding TO 'utf8';
+    ALTER ROLE kyle_admin SET default_transaction_isolation TO 'read committed';
+    ALTER ROLE kyle_admin SET timezone TO 'UTC';`
+
 ## Setting up virtual python environment
 0. `mkdir {project}`
 0. `cd {project}`
