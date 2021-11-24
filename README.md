@@ -22,3 +22,7 @@ Django back, React+TypeScript front, Postgres database.
 0. Create an app inside the project: `django-admin startapp {app_name}`
 0. Register the app in `django_app/settings.py`
 
+## Create the React frontend with CreateReactApp
+0. Create a directory for the frontend: `mkdir react-frontend`
+1. CD into the frontend directory`cd react-frontend`
+2. Use yarn to install a React app with a TypeScript template: `yarn create react-app {app-name} --template typescript`
