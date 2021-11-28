@@ -11,9 +11,9 @@ Django back, React+TypeScript front, Postgres database.
 ## Setting up virtual python environment
 0. `mkdir {project}`
 0. `cd {project}`
-~0. `virtualenv env`~
-0. `python3 -m env {/path/to/new/virtual/environment}`
-0. `source env/bin/activate`
+~0. `virtualenv venv`~
+0. `python3 -m venv {/path/to/new/virtual/environment}`
+0. `source venv/bin/activate`
 0. Install django and psycopg2: `pip install django psycopg2`
 
 ## Setting up Django Project and App
@@ -49,3 +49,8 @@ python manage.py migrate database_app
 python manage.py createsuperuser
 ```
 
+### add react-bootstrap
+```
+cd react-frontend
+npm i react-bootstrap bootstrap@5.1.3
+```
