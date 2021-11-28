@@ -49,3 +49,7 @@ python manage.py migrate database_app
 python manage.py createsuperuser
 ```
 
+## Create the React frontend with CreateReactApp
+0. Create a directory for the frontend: `mkdir react-frontend`
+1. CD into the frontend directory`cd react-frontend`
+2. Use yarn to install a React app with a TypeScript template: `yarn create react-app {app-name} --template typescript`
