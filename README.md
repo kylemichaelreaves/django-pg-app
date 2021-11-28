@@ -60,4 +60,5 @@ npm i react-bootstrap bootstrap@5.1.3
 #### If Git says, "Your configuration specificies to me with the ref <branch> from the remote but no such ref was fetched.":
 ```
 git fetch --prune origin
+git branch --unset-upstream
 ```
