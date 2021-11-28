@@ -14,13 +14,13 @@ Django back, React+TypeScript front, Postgres database.
 ~0. `virtualenv venv`~
 0. `python3 -m venv {/path/to/new/virtual/environment}`
 0. `source venv/bin/activate`
-0. Install django and psycopg2: `pip install django psycopg2`
+0. Install django and psycopg2: `pip install django psycopg2 djangorestframework django-cors-headers`
 
 ## Setting up Django Project and App
 0. Create Django project_folder: `django-admin stratproject {django_app_project}`
-0. CD into the project: `cd django_app_project`
+0. CD into the project: `cd {django_app_project}`
 0. Create an app inside the project: `django-admin startapp {app_name}`
-0. Register the app in `django_app/settings.py`
+0. Register the app, djangorestframework, and django-cors-headers in `django_app/settings.py`
 
 ## Configure Django for Postgres
 ```python
@@ -49,11 +49,7 @@ python manage.py migrate database_app
 python manage.py createsuperuser
 ```
 
-
-
-
-
-### Create the React frontend with CreateReactApp
+## Create the React frontend with CreateReactApp
 0. Create a directory for the frontend: `mkdir react-frontend`
 1. CD into the frontend directory`cd react-frontend`
 2. Use yarn to install a React app with a TypeScript template: `yarn create react-app {app-name} --template typescript`
@@ -63,13 +59,8 @@ python manage.py createsuperuser
 cd react-frontend
 npm i react-bootstrap bootstrap@5.1.3
 ```
-#### If Git says, "Your configuration specificies to me with the ref <branch> from the remote but no such ref was fetched.":
+## If Git says, "Your configuration specificies to me with the ref <branch> from the remote but no such ref was fetched.":
 ```
 git fetch --prune origin
 git branch --unset-upstream
-<<<<<<< HEAD
 ```
-=======
-```
-
->>>>>>> 832a6b0b75d8684c2aafbd3a4f5ce7b8815d15cc
