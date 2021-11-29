@@ -12,7 +12,7 @@ Django back, React+TypeScript front, Postgres database.
 0. `mkdir {project}`
 0. `cd {project}`
 0. `python3 -m venv {/path/to/new/virtual/environment}`
-  0. It's possible to update the version of the python venv with this command, where `venv` is the path to the direcotry: `python3 -m venv --upgrade venv`
+0. (It's possible to update the version of the python venv with this command, where `venv` is the path to the direcotry: `python3 -m venv --upgrade venv`)
 0. `source venv/bin/activate`
 0. Install django and psycopg2: `pip install django psycopg2 djangorestframework django-cors-headers`
 
