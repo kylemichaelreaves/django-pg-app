@@ -20,6 +20,10 @@ Django back, React+TypeScript front, Postgres database.
 ```
 /Users/kreave01/src/django-pg-app/venv/bin/python
 ```
+The relative path works too:
+```
+./venv/bin/python
+```
 
 ## Setting up Django Project and App
 0. Create Django project_folder: `django-admin stratproject {django_app_project}`
