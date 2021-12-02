@@ -16,6 +16,11 @@ Django back, React+TypeScript front, Postgres database.
 0. `source venv/bin/activate`
 0. Install django and psycopg2: `pip install django psycopg2 djangorestframework django-cors-headers`
 
+### Start the shell of the virtual env by calling its absolute path:
+```
+/Users/kreave01/src/django-pg-app/venv/bin/python
+```
+
 ## Setting up Django Project and App
 0. Create Django project_folder: `django-admin stratproject {django_app_project}`
 0. CD into the project: `cd {django_app_project}`
@@ -74,3 +79,8 @@ npm i react-bootstrap bootstrap@5.1.3
 git fetch --prune origin
 git branch --unset-upstream
 ```
+
+## I'm using Poetry to manage dependencies. Install Poetry with the following command:
+`curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -`
+### To initialize a project in poetry:
+`poetry init`
