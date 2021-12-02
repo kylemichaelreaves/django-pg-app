@@ -49,6 +49,16 @@ python manage.py migrate database_app
 python manage.py createsuperuser
 ```
 
+### import csv to the Property model
+```python
+python manage.py ogrinspect /Users/kylereaves/src/landlord_data/JerseyCity/jersey_city_private_property.csv Property
+```
+Update INSTALLED_APPS in settings.py with `django.contrib.gis`
+#### importing models in python shell:
+```
+from database_app.models import Property
+```
+
 ## Create the React frontend with CreateReactApp
 0. Create a directory for the frontend: `mkdir react-frontend`
 1. CD into the frontend directory`cd react-frontend`

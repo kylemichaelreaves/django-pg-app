@@ -31,7 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # 'pg_app.database_app.apps.DatabaseAppConfig'
+    'pg_app.database_app.apps.DatabaseAppConfig'
+    'django.contrib.gis',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
