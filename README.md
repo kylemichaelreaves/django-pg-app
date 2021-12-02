@@ -69,3 +69,8 @@ npm i react-bootstrap bootstrap@5.1.3
 git fetch --prune origin
 git branch --unset-upstream
 ```
+
+## I'm using Poetry to manage dependencies. Install Poetry with the following command:
+`curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -`
+### To initialize a project in poetry:
+`poetry init`
