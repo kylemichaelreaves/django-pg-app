@@ -1,5 +1,6 @@
 # README
-Django back, React+TypeScript front, Postgres database.
+Django backend, React+TypeScript frontend, Postgres database. 
+This app uses the data I've cleaned in my landlord_data project. 
 
 ## Create Postgres database and user
 0. `CREATE DATABASE {database};`
