@@ -74,3 +74,6 @@ git branch --unset-upstream
 `curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -`
 ### To initialize a project in poetry:
 `poetry init`
+
+## If Pylance is underlining dependencies with squiggly lines saying that they're missing, it's likely you're using the wrong interpreter. This is the correct path to the interpreter, since we've set up a venv:
+`./venv/bin/python`
