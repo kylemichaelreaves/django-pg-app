@@ -16,6 +16,11 @@ Django back, React+TypeScript front, Postgres database.
 0. `source venv/bin/activate`
 0. Install django and psycopg2: `pip install django psycopg2 djangorestframework django-cors-headers`
 
+### Start the shell of the virtual env by calling its absolute path:
+```
+/Users/kreave01/src/django-pg-app/venv/bin/python
+```
+
 ## Setting up Django Project and App
 0. Create Django project_folder: `django-admin stratproject {django_app_project}`
 0. CD into the project: `cd {django_app_project}`
