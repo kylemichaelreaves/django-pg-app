@@ -1,6 +1,6 @@
 # README
 Django backend, React+TypeScript frontend, Postgres database. 
-This app uses the data I've cleaned in my landlord_data project. 
+This app uses the data I've cleaned in my [landlord_data](https://github.com/kylemichaelreaves/landlord_data) project. 
 
 ## Create Postgres database and user
 0. `CREATE DATABASE {database};`
