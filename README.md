@@ -1,6 +1,6 @@
 # README
-Django backend, React+TypeScript frontend, Postgres database. 
-This app uses the data I've cleaned in my landlord_data project. 
+Django backend, React+TypeScript frontend, Postgres database.
+This app uses the data I've cleaned in my landlord_data project.
 
 ## Create Postgres database and user
 0. `CREATE DATABASE {database};`
@@ -25,6 +25,8 @@ The relative path works too:
 ```
 ./venv/bin/python
 ```
+
+
 
 ## Setting up Django Project and App
 0. Create Django project_folder: `django-admin stratproject {django_app_project}`
@@ -59,10 +61,14 @@ python manage.py migrate database_app
 python manage.py createsuperuser
 ```
 
-### import csv to the Property model
+## Import .csv into Property model
 ```python
 python manage.py ogrinspect /Users/kylereaves/src/landlord_data/JerseyCity/jersey_city_private_property.csv Property
 ```
+```
+python manage.py load_properties --path /Users/kylereaves/src/landlord_data/JerseyCity/jersey_city_private_property.csv
+```
+
 Update INSTALLED_APPS in settings.py with `django.contrib.gis`
 #### importing models in python shell:
 ```

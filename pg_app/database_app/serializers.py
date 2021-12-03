@@ -12,8 +12,8 @@ class PropertySerializer(serializers.ModelSerializer):
                   'owner_full_mailing_address',
                   'property_full_address',
                   'units_at_property',
-                  'number_associated_properties',
-                  'list_associated_properties',
                   'g_code',
                   'latitude',
-                  'longitude')
+                  'longitude',
+                  'number_associated_properties',
+                  'list_associated_properties',)
