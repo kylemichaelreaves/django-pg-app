@@ -11,10 +11,9 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         path = kwargs['path']
-        with open(path, 'rt') as f:
+        with open(path, 'r') as f:
             data = list(csv.reader(f))
-            for row in data:
-                #pdb.set_trace()
+            for row in data[1:]:
                 Property.objects.create(
                     property_id = row[0],
                     street_address = row[1],
