@@ -16,7 +16,7 @@ class Property(models.Model):
     latitude = models.FloatField()
     longitude = models.FloatField()
     number_associated_properties = models.IntegerField()
-    list_associated_properties = ArrayField(models.CharField(max_length=255))
+    list_associated_properties = ArrayField(models.CharField(max_length=255), default=list)
 
 class Landlord(models.Model):
     name = models.CharField(max_length=255)
