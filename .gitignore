@@ -133,3 +133,6 @@ dmypy.json
 
 ## pyenv
 .pyenv
+
+## vscode formatting
+.vscode

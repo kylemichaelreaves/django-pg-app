@@ -4,6 +4,7 @@ from django.contrib.postgres.fields import ArrayField
 
 # Create your models here.
 class Property(models.Model):
+    property_id = models.IntegerField(primary_key=True)
     street_address = models.CharField(max_length=255)
     owner_name = models.CharField(max_length=255)
     owner_mailing_address = models.CharField(max_length=255)
