@@ -18,5 +18,5 @@ class PropertySerializer(serializers.ModelSerializer):
             "latitude",
             "longitude",
             "number_associated_properties",
-            "list_associated_properties",
+            # "list_associated_properties",
         )

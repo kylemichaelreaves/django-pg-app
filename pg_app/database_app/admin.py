@@ -15,7 +15,7 @@ class PropertyAdmin(admin.ModelAdmin):
                     'latitude',
                     'longitude',
                     'number_associated_properties',
-                    'list_associated_properties',
+                    #'list_associated_properties',
                     )
 
 admin.site.register(Property, PropertyAdmin)
