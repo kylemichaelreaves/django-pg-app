@@ -27,6 +27,6 @@ class Command(BaseCommand):
                     latitude = row[9],
                     longitude = row[10],
                     number_associated_properties = row[11],
-                    list_associated_properties = row[12]
+                    #list_associated_properties = row[12]
                     )
 
